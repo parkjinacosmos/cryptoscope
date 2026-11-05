@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# SQLite experiment data
+backend/data/
+
+# Node
+node_modules/
+dist/
+
+# Local env
+.env
+frontend/.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Environment variants
+.env.*
+!.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Build and cache
+.vite/
+coverage/
+*.log
